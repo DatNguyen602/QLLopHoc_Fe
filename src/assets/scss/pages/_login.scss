@@ -1,0 +1,27 @@
+#login{
+    width: 312px;
+    max-width: 90%;
+    margin: 178px auto;
+    text-align: center;
+    padding: 64px 12px;
+    border-radius: 12px;
+    span{
+        color: red;
+        button{
+            color: blueviolet;
+            margin-left: 8px;
+            text-decoration: underline;
+            border: none;
+            background-color: transparent;
+        }
+    }
+    #button{
+        padding: 8px 0px;
+        background-color: aqua;
+        font-weight: bold;
+        width: 100%;
+        border-radius: 2px;
+        margin: 16px 0;
+        text-transform: uppercase;
+    }
+}

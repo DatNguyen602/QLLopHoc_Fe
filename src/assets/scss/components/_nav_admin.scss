@@ -1,0 +1,30 @@
+#admin--nav{
+    width: 192px;
+    background-color: #eeeeee;
+    height: 100vh;
+    padding-top: 32px;
+    ul{
+        li{
+            padding: 0 32px;
+            position: relative;
+            a{
+                line-height: 32px;
+            }
+            ul{
+                position: absolute;
+                top: 0;
+                left: 90%;
+                width: max-content;
+                background-color: #fff;
+                border: 1px solid blue;
+                display: none;
+            }
+        }
+        li:hover{
+            background-color: #DDD;
+        }
+        li:hover > ul{
+            display: block;
+        }
+    }
+}
